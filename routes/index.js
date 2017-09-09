@@ -10,4 +10,8 @@ router.get('/music', function(req, res, next) {
   res.render('music', { title: 'Hansmole' });
 });
 
+router.get('/art', function(req, res, next) {
+  res.render('art', { title: 'Hansmole' });
+});
+
 module.exports = router;
