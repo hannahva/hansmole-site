@@ -15,4 +15,12 @@ router.get('/art', function(req, res, next) {
   res.render('art', { title });
 });
 
+router.get('/about', function(req, res, next) {
+  res.render('about', { title });
+});
+
+router.get('/contact', function(req, res, next) {
+  res.render('contact', { title });
+});
+
 module.exports = router;
