@@ -4,12 +4,22 @@
   <body>
     <%- include partials/_header.ejs %>
     <h1>Music</h1>
-    <iframe style="border: 0; width: 350px; height: 588px;" src="https://bandcamp.com/EmbeddedPlayer/album=3330951767/size=large/bgcol=ffffff/linkcol=63b2cc/transparent=true/" seamless><a href="http://hansmole.bandcamp.com/album/endless-abundance-ep">Endless Abundance EP by hansmole</a></iframe>
-    <iframe style="border: 0; width: 350px; height: 588px;" src="https://bandcamp.com/EmbeddedPlayer/album=2800205613/size=large/bgcol=ffffff/linkcol=63b2cc/transparent=true/" seamless><a href="http://hansmole.bandcamp.com/album/comfort">Comfort by hansmole</a></iframe>
-    <iframe style="border: 0; width: 350px; height: 588px;" src="https://bandcamp.com/EmbeddedPlayer/album=1342143247/size=large/bgcol=ffffff/linkcol=63b2cc/transparent=true/" seamless><a href="http://hansmole.bandcamp.com/album/whitest-whiteness">Whitest Whiteness by hansmole</a></iframe>
-    <p>
+    <div class="spotify-players">
+      <iframe src="https://open.spotify.com/embed?uri=spotify:album:63v2rtuWBHCMtd9ospC1uL" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+      <iframe src="https://open.spotify.com/embed?uri=spotify:album:71TbXO3dNZjoc10QPanoyX" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+    </div>
+    <div class="bandcamp-players">
+      <h2>or if you don't have spotify...</h2>
+      <iframe style="border: 0; width: 250px; height: 508px;" src="https://bandcamp.com/EmbeddedPlayer/album=3330951767/size=large/bgcol=ffffff/linkcol=63b2cc/transparent=true/" seamless><a href="http://hansmole.bandcamp.com/album/endless-abundance-ep">Endless Abundance EP by hansmole</a></iframe>
+      <iframe style="border: 0; width: 250px; height: 508px;" src="https://bandcamp.com/EmbeddedPlayer/album=2800205613/size=large/bgcol=ffffff/linkcol=63b2cc/transparent=true/" seamless><a href="http://hansmole.bandcamp.com/album/comfort">Comfort by hansmole</a></iframe>
+      <iframe style="border: 0; width: 250px; height: 508px;" src="https://bandcamp.com/EmbeddedPlayer/album=1342143247/size=large/bgcol=ffffff/linkcol=63b2cc/transparent=true/" seamless><a href="http://hansmole.bandcamp.com/album/whitest-whiteness">Whitest Whiteness by hansmole</a></iframe>
+    </div>
+    <p class="soundcloud-widget">
       <a href="https://soundcloud.com/hansmole" class="fa fa-soundcloud" target="_blank"></a>
       Soundcloud
+    </p>
+    <p class="spotify-widget">
+      <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:3TC6NNo2RLkLaR9AVFwQsz&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
     </p>
   </body>
 </html>
