@@ -2,6 +2,20 @@
 <html>
   <%- include partials/_head %>
   <body>
-    <%- include partials/_header.ejs %>
+    <header>
+      <a href='/'><%= title %></a>
+    </header>
+    <div>
+      <%- link_to('music', '/music') %>
+    </div>
+    <div>
+      <%- link_to('art', '/art') %>
+    </div>
+    <div>
+      <%- link_to('about/press', '/about') %>
+    </div>
+    <div>
+      <%- link_to('contact', '/contact') %>
+    </div>
   </body>
 </html>
