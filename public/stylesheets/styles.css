@@ -34,4 +34,52 @@ nav {
   nav li li:hover {
     color: paleGoldenRod; }
 
+footer {
+  background-color: black;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+  justify-content: space-between;
+  position: absolute;
+  width: 100vw; }
+  footer div.footer-icons {
+    display: inline-block;
+    font-size: 4vh;
+    margin-right: 2vw;
+    margin-top: 9vh;
+    padding-bottom: 0;
+    float: right; }
+    footer div.footer-icons a {
+      color: grey;
+      margin: 1vw;
+      text-decoration: none; }
+    footer div.footer-icons a:hover {
+      color: pink; }
+  footer div.copyright {
+    margin-top: 10vh; }
+    footer div.copyright h6 {
+      color: grey;
+      display: inline-block; }
+  footer div.footer-message {
+    color: grey;
+    display: inline-block;
+    float: left;
+    font-size: 2vh;
+    height: 10vh;
+    margin-left: 2vw;
+    margin-top: 10vh;
+    overflow-wrap: break-word;
+    width: 20vw; }
+
+body {
+  background-color: black;
+  margin: none;
+  min-height: 100vh;
+  padding-bottom: 16vh;
+  position: relative; }
+  body h1,
+  body h2 {
+    color: grey; }
+
 /*# sourceMappingURL=styles.css.map */
