@@ -1,0 +1,55 @@
+nav {
+  background-color: black;
+
+  h3 {
+    color: white;
+  }
+  a {
+    color: white;
+    display: block;
+    line-height: 10vh;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: pink;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 15vw;
+
+    li {
+      display: inline-block;
+      position: relative;
+    }
+  }
+
+  ul.sub-menu {
+    display: none;
+  }
+
+  /* sub-menu */
+  li {
+    ul {
+      background-color: grey;
+      left: 0;
+      position: absolute;
+      top: 10vh;
+      width: 15vw;
+    }
+
+    li {
+      color: white;
+      display: block;
+      position: relative;
+      margin: 0;
+    }
+
+    li:hover {
+      color: paleGoldenRod;
+    }
+  }
+}
