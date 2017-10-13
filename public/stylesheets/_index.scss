@@ -1,0 +1,23 @@
+#homepage {
+  color: white;
+  font-size: 10vh;
+  text-align: center;
+}
+
+div.index-links {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30vh;
+
+  a {
+    color: white;
+    font-size: 10vh;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: pink;
+  }
+}
