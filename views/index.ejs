@@ -3,19 +3,21 @@
   <%- include partials/_head %>
   <body>
     <header>
-      <a href='/'><%= title %></a>
+      <h1 id="homepage"><%= title %></h1>
     </header>
-    <div>
-      <%- link_to('music', '/music') %>
-    </div>
-    <div>
-      <%- link_to('art', '/art') %>
-    </div>
-    <div>
-      <%- link_to('about/press', '/about') %>
-    </div>
-    <div>
-      <%- link_to('contact', '/contact') %>
+    <div class="index-links">
+      <div>
+        <%- link_to('music', '/music') %>
+      </div>
+      <div>
+        <%- link_to('art', '/art') %>
+      </div>
+      <div>
+        <%- link_to('about', '/about') %>
+      </div>
+      <div>
+        <%- link_to('contact', '/contact') %>
+      </div>
     </div>
   </body>
 </html>
