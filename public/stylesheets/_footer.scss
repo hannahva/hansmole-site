@@ -1,5 +1,7 @@
+@import "variables";
+
 footer {
-  background-color: black;
+  background-color: $secondary-color;
   bottom: 0;
   display: flex;
   flex-direction: row;
@@ -12,37 +14,38 @@ footer {
     display: inline-block;
     font-size: 4vh;
     margin-right: 2vw;
-    margin-top: 9vh;
+    margin-top: 4vh;
     padding-bottom: 0;
     float: right;
 
     a {
-      color: grey;
+      color: $secondary-text;
       margin: 1vw;
       text-decoration: none;
     }
 
     a:hover {
-      color: pink;
+      color: $link-hover;
     }
   }
   div.copyright {
-    margin-top: 10vh;
+    margin-top: 8vh;
+
     h6 {
-      color: grey;
+      color: $secondary-text;
       display: inline-block;
     }
   }
 
   div.footer-message {
-    color: grey;
+    color: $secondary-text;
     display: inline-block;
     float: left;
-    font-size: 2vh;
+    font-size: 1.5vh;
     height: 10vh;
     margin-left: 2vw;
-    margin-top: 10vh;
+    margin-top: 5vh;
     overflow-wrap: break-word;
-    width: 20vw;
+    width: 15vw;
   }
 }

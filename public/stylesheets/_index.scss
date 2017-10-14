@@ -1,7 +1,8 @@
+@import "variables";
+
 #homepage {
-  color: white;
+  color: $text-color;
   font-size: 10vh;
-  font-family: 'Schoolbell', cursive;
   text-align: center;
 }
 
@@ -9,17 +10,16 @@ div.index-links {
   align-items: center;
   display: flex;
   flex-direction: row;
-  font-family: 'Schoolbell', cursive;
   justify-content: space-around;
   margin-top: 30vh;
 
   a {
-    color: white;
+    color: $text-color;
     font-size: 10vh;
     text-decoration: none;
   }
 
   a:hover {
-    color: pink;
+    color: $link-hover;
   }
 }

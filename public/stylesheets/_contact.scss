@@ -1,6 +1,8 @@
+@import "variables";
+
 div.contact-links {
   align-items: flex-start;
-  color: white;
+  color: $text-color;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -10,18 +12,18 @@ div.contact-links {
     width: 15vw;
 
     a {
-      color: white;
+      color: $text-color;
       display: inline-block;
-      font-size: 10vh;
+      font-size: 15vh;
       text-decoration: none;
     }
 
     a:hover {
-      color: pink;
+      color: $link-hover;
     }
 
     p {
-      font-size: 6vh;
+      font-size: 4vh;
     }
   }
 }

@@ -1,43 +1,48 @@
+@import "variables";
+
 header {
   nav {
-    background-color: black;
+    background-color: $secondary-color;
     display: flex;
     flex-direction: row;
-    font-family: 'Schoolbell', cursive;
     height: 15vh;
-    justify-content: space-around;
+    justify-content: space-between;
     position: fixed;
     top: 0;
     width: 100vw;
 
     #path-name {
-      color: white;
+      color: $text-color;
       display: inline-block;
       font-size: 10vh;
       margin: .5vw;
     }
 
     #title {
-      color: white;
+      color: $text-color;
       font-size: 10vh;
       display: inline-block;
     }
 
     #title:hover {
-      color: pink;
+      color: $link-hover;
     }
 
     h3 {
-      background-color: wheat;
+      background-color: $main-color;
       border-radius: 1vw;
-      color: white;
+      color: $text-color;
       font-size: 3vh;
       margin-top: 4vh;
       padding: 1vh 1vw 1vh 1vw;
     }
 
+    h3:hover {
+      color: $link-hover;
+    }
+
     a {
-      color: white;
+      color: $text-color;
       display: inline-block;
       font-size: 3vh;
       margin: 1vh;
@@ -45,7 +50,7 @@ header {
     }
 
     a:hover {
-      color: pink;
+      color: $link-hover;
     }
 
     ul {
@@ -68,8 +73,7 @@ header {
 
       li {
         ul {
-          background-color: wheat;
-          border-radius: 1.3vw;
+          background-color: transparent;
           left: 0;
           position: absolute;
           top: 10vh;

@@ -1,39 +1,40 @@
 header nav {
-  background-color: black;
+  background-color: #131210;
   display: flex;
   flex-direction: row;
-  font-family: 'Schoolbell', cursive;
   height: 15vh;
-  justify-content: space-around;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   width: 100vw; }
   header nav #path-name {
-    color: white;
+    color: linen;
     display: inline-block;
     font-size: 10vh;
     margin: .5vw; }
   header nav #title {
-    color: white;
+    color: linen;
     font-size: 10vh;
     display: inline-block; }
   header nav #title:hover {
-    color: pink; }
+    color: wheat; }
   header nav h3 {
-    background-color: wheat;
+    background-color: #2A2727;
     border-radius: 1vw;
-    color: white;
+    color: linen;
     font-size: 3vh;
     margin-top: 4vh;
     padding: 1vh 1vw 1vh 1vw; }
+  header nav h3:hover {
+    color: wheat; }
   header nav a {
-    color: white;
+    color: linen;
     display: inline-block;
     font-size: 3vh;
     margin: 1vh;
     text-decoration: none; }
   header nav a:hover {
-    color: pink; }
+    color: wheat; }
   header nav ul {
     display: inline-block;
     list-style: none;
@@ -49,8 +50,7 @@ header nav {
       text-align: center;
       width: 10vw; }
     header nav ul li ul {
-      background-color: wheat;
-      border-radius: 1.3vw;
+      background-color: transparent;
       left: 0;
       position: absolute;
       top: 10vh;
@@ -59,36 +59,35 @@ header nav {
       color: pink; }
 
 #homepage {
-  color: white;
+  color: linen;
   font-size: 10vh;
-  font-family: 'Schoolbell', cursive;
   text-align: center; }
 
 div.index-links {
   align-items: center;
   display: flex;
   flex-direction: row;
-  font-family: 'Schoolbell', cursive;
   justify-content: space-around;
   margin-top: 30vh; }
   div.index-links a {
-    color: white;
+    color: linen;
     font-size: 10vh;
     text-decoration: none; }
   div.index-links a:hover {
-    color: pink; }
+    color: wheat; }
 
 body {
-  background-color: black;
-  margin: none;
+  background-color: #2A2727;
+  font-family: "Droid Sans", sans-serif;
+  margin: 0;
   min-height: 100vh;
-  padding-bottom: 16vh;
+  padding-bottom: 15vh;
   padding-top: 16vh;
   position: relative; }
 
 div.contact-links {
   align-items: flex-start;
-  color: white;
+  color: linen;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -96,17 +95,56 @@ div.contact-links {
   div.contact-links div {
     width: 15vw; }
     div.contact-links div a {
-      color: white;
+      color: linen;
       display: inline-block;
-      font-size: 10vh;
+      font-size: 15vh;
       text-decoration: none; }
     div.contact-links div a:hover {
-      color: pink; }
+      color: wheat; }
     div.contact-links div p {
-      font-size: 6vh; }
+      font-size: 4vh; }
+
+div.spotify-players {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  div.spotify-players iframe {
+    margin: 1vh; }
+
+h2 {
+  color: linen;
+  text-align: center; }
+
+div.bandcamp-players {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 25vw; }
+  div.bandcamp-players iframe {
+    margin: 1vh; }
+
+div.follow-widgets {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2vh;
+  margin-top: 2vh; }
+  div.follow-widgets div {
+    color: linen;
+    font-size: 4vh;
+    margin: 0 2vw 0 2vw; }
+    div.follow-widgets div a.fa-soundcloud {
+      color: #E37216;
+      margin-top: 3vh;
+      text-decoration: none; }
+    div.follow-widgets div a.spotify-follow {
+      /* h1 {
+         margin: 0;
+       }*/ }
 
 footer {
-  background-color: black;
+  background-color: #131210;
   bottom: 0;
   display: flex;
   flex-direction: row;
@@ -118,7 +156,7 @@ footer {
     display: inline-block;
     font-size: 4vh;
     margin-right: 2vw;
-    margin-top: 9vh;
+    margin-top: 4vh;
     padding-bottom: 0;
     float: right; }
     footer div.footer-icons a {
@@ -126,9 +164,9 @@ footer {
       margin: 1vw;
       text-decoration: none; }
     footer div.footer-icons a:hover {
-      color: pink; }
+      color: wheat; }
   footer div.copyright {
-    margin-top: 10vh; }
+    margin-top: 8vh; }
     footer div.copyright h6 {
       color: grey;
       display: inline-block; }
@@ -136,11 +174,11 @@ footer {
     color: grey;
     display: inline-block;
     float: left;
-    font-size: 2vh;
+    font-size: 1.5vh;
     height: 10vh;
     margin-left: 2vw;
-    margin-top: 10vh;
+    margin-top: 5vh;
     overflow-wrap: break-word;
-    width: 20vw; }
+    width: 15vw; }
 
 /*# sourceMappingURL=styles.css.map */
