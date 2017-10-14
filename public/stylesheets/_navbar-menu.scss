@@ -3,30 +3,44 @@ header {
     background-color: black;
     display: flex;
     flex-direction: row;
+    font-family: 'Schoolbell', cursive;
     height: 15vh;
     justify-content: space-around;
     position: fixed;
     top: 0;
+    width: 100vw;
 
     #path-name {
       color: white;
       display: inline-block;
       font-size: 10vh;
-      margin: 0 20vw 0;
+      margin: .5vw;
     }
 
     #title {
+      color: white;
       font-size: 10vh;
       display: inline-block;
     }
 
-    h3 {
-      color: white;
+    #title:hover {
+      color: pink;
     }
+
+    h3 {
+      background-color: wheat;
+      border-radius: 1vw;
+      color: white;
+      font-size: 3vh;
+      margin-top: 4vh;
+      padding: 1vh 1vw 1vh 1vw;
+    }
+
     a {
       color: white;
       display: inline-block;
-      line-height: 10vh;
+      font-size: 3vh;
+      margin: 1vh;
       text-decoration: none;
     }
 
@@ -39,37 +53,32 @@ header {
       list-style: none;
       margin: 0;
       padding: 0;
-      width: 15vw;
+      width: 14vw;
 
-      li {
+      li.dropdown {
         display: inline-block;
         position: relative;
       }
-    }
-
-    ul.sub-menu {
-      display: none;
-    }
-
-    /* sub-menu */
-    li {
-      ul {
-        background-color: grey;
-        left: 0;
-        position: absolute;
-        top: 10vh;
-        width: 15vw;
+      /* sub-menu */
+      ul.sub-menu {
+        display: none;
+        text-align: center;
+        width: 10vw;
       }
 
       li {
-        color: white;
-        display: block;
-        position: relative;
-        margin: 0;
-      }
+        ul {
+          background-color: wheat;
+          border-radius: 1.3vw;
+          left: 0;
+          position: absolute;
+          top: 10vh;
+          width: 15vw;
+        }
 
-      li:hover {
-        color: paleGoldenRod;
+        li:hover {
+          color: pink;
+        }
       }
     }
   }
