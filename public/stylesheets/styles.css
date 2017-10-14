@@ -2,25 +2,35 @@ header nav {
   background-color: black;
   display: flex;
   flex-direction: row;
+  font-family: 'Schoolbell', cursive;
   height: 15vh;
   justify-content: space-around;
   position: fixed;
   top: 0;
-  /* sub-menu */ }
+  width: 100vw; }
   header nav #path-name {
     color: white;
     display: inline-block;
     font-size: 10vh;
-    margin: 0 20vw 0; }
+    margin: .5vw; }
   header nav #title {
+    color: white;
     font-size: 10vh;
     display: inline-block; }
+  header nav #title:hover {
+    color: pink; }
   header nav h3 {
-    color: white; }
+    background-color: wheat;
+    border-radius: 1vw;
+    color: white;
+    font-size: 3vh;
+    margin-top: 4vh;
+    padding: 1vh 1vw 1vh 1vw; }
   header nav a {
     color: white;
     display: inline-block;
-    line-height: 10vh;
+    font-size: 3vh;
+    margin: 1vh;
     text-decoration: none; }
   header nav a:hover {
     color: pink; }
@@ -29,35 +39,36 @@ header nav {
     list-style: none;
     margin: 0;
     padding: 0;
-    width: 15vw; }
-    header nav ul li {
+    width: 14vw;
+    /* sub-menu */ }
+    header nav ul li.dropdown {
       display: inline-block;
       position: relative; }
-  header nav ul.sub-menu {
-    display: none; }
-  header nav li ul {
-    background-color: grey;
-    left: 0;
-    position: absolute;
-    top: 10vh;
-    width: 15vw; }
-  header nav li li {
-    color: white;
-    display: block;
-    position: relative;
-    margin: 0; }
-  header nav li li:hover {
-    color: paleGoldenRod; }
+    header nav ul ul.sub-menu {
+      display: none;
+      text-align: center;
+      width: 10vw; }
+    header nav ul li ul {
+      background-color: wheat;
+      border-radius: 1.3vw;
+      left: 0;
+      position: absolute;
+      top: 10vh;
+      width: 15vw; }
+    header nav ul li li:hover {
+      color: pink; }
 
 #homepage {
   color: white;
   font-size: 10vh;
+  font-family: 'Schoolbell', cursive;
   text-align: center; }
 
 div.index-links {
   align-items: center;
   display: flex;
   flex-direction: row;
+  font-family: 'Schoolbell', cursive;
   justify-content: space-around;
   margin-top: 30vh; }
   div.index-links a {
