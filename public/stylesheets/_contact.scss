@@ -1,0 +1,16 @@
+div.contact-links {
+  align-items: flex-end;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30vh;
+
+  div {
+    a {
+      color: white;
+      font-size: 10vh;
+      text-decoration: none;
+    }
+  }
+}
