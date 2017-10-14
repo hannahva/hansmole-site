@@ -1,0 +1,52 @@
+@mixin flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+div.spotify-players {
+  @include flex;
+
+  iframe {
+    margin: 1vh;
+  }
+}
+
+h2 {
+  color: $text-color;
+  text-align: center;
+}
+
+div.bandcamp-players {
+  @include flex;
+  flex-direction: column;
+  margin-left: 25vw;
+
+    iframe {
+    margin: 1vh;
+  }
+}
+
+div.follow-widgets {
+  @include flex;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+
+  div {
+    color: $text-color;
+    font-size: 4vh;
+    margin: 0 2vw 0 2vw;
+
+    a.fa-soundcloud {
+      color: #E37216;
+      margin-top: 3vh;
+      text-decoration: none;
+    }
+
+    a.spotify-follow {
+     /* h1 {
+        margin: 0;
+      }*/
+    }
+  }
+}

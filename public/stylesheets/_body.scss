@@ -1,8 +1,11 @@
+@import "variables";
+
 body {
-  background-color: black;
-  margin: none;
+  background-color: $main-color;
+  font-family: $main-font;
+  margin: 0;
   min-height: 100vh;
-  padding-bottom: 16vh;
+  padding-bottom: 15vh;
   padding-top: 16vh;
   position: relative;
 }
