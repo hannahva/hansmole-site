@@ -1,5 +1,5 @@
 div.contact-links {
-  align-items: flex-end;
+  align-items: flex-start;
   color: white;
   display: flex;
   flex-direction: row;
@@ -7,10 +7,21 @@ div.contact-links {
   margin-top: 30vh;
 
   div {
+    width: 15vw;
+
     a {
       color: white;
+      display: inline-block;
       font-size: 10vh;
       text-decoration: none;
+    }
+
+    a:hover {
+      color: pink;
+    }
+
+    p {
+      font-size: 6vh;
     }
   }
 }
