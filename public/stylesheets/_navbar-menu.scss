@@ -1,55 +1,76 @@
-nav {
-  background-color: black;
+header {
+  nav {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
 
-  h3 {
-    color: white;
-  }
-  a {
-    color: white;
-    display: block;
-    line-height: 10vh;
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: pink;
-  }
-
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 15vw;
-
-    li {
-      display: inline-block;
-      position: relative;
-    }
-  }
-
-  ul.sub-menu {
-    display: none;
-  }
-
-  /* sub-menu */
-  li {
-    ul {
-      background-color: grey;
-      left: 0;
-      position: absolute;
-      top: 10vh;
-      width: 15vw;
-    }
-
-    li {
+    #path-name {
       color: white;
-      display: block;
-      position: relative;
-      margin: 0;
+      display: inline-block;
+      font-size: 10vh;
+      margin: 0 20vw 0;
     }
 
-    li:hover {
-      color: paleGoldenRod;
+    #title {
+      font-size: 10vh;
+      display: inline-block;
+    }
+
+    h3 {
+      color: white;
+    }
+    a {
+      color: white;
+      display: inline-block;
+      line-height: 10vh;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: pink;
+    }
+
+    ul {
+      display: inline-block;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      width: 15vw;
+
+      li {
+        display: inline-block;
+        position: relative;
+      }
+    }
+
+    ul.sub-menu {
+      display: none;
+    }
+
+    /* sub-menu */
+    li {
+      ul {
+        background-color: grey;
+        left: 0;
+        position: absolute;
+        top: 10vh;
+        width: 15vw;
+      }
+
+      li {
+        color: white;
+        display: block;
+        position: relative;
+        margin: 0;
+      }
+
+      li:hover {
+        color: paleGoldenRod;
+      }
     }
   }
 }
